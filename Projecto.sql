@@ -36,9 +36,8 @@ group by location, population, date
 order by PopulationPercentageInfected desc
 
 
+/*
 
-
-<-- test 
 select *
 from PortfolioProject.dbo.CovidDeadAnalysis
 where continent is not null
@@ -183,5 +182,4 @@ Where dea.continent is not null
 
 select * 
 from PercentPopulationVaccinated
-
--->
+*/ 
